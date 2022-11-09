@@ -1,0 +1,30 @@
+#div1{
+
+    height: 400px;
+    width: 450px;
+ 
+    margin-left: 35%;
+    
+
+
+}
+
+#bg1{ 
+  
+    background-image: url(https://images.pexels.com/photos/6969649/pexels-photo-6969649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;
+     
+    background-repeat: no-repeat;
+
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+  
+  }
+  .clr{
+    color: white;
+    text-decoration: none;
+  }
+
+  

@@ -1,0 +1,32 @@
+#form_style{
+    height: 400px;
+    width: 450px;
+ 
+    margin-left: 30%;
+   margin-top: 10%;
+  }
+  #legend_Style{
+    margin-left: 42%;
+    
+ 
+ 
+   }
+ 
+   #legend_Style1{
+    
+     
+     background-color: rgba(17, 166, 235, 0.521);
+  
+    }
+    .clr{
+        color: rgba(255, 255, 255, 0.63);
+        
+      }
+    #bg1{ 
+  
+        background-image: url(https://images.pexels.com/photos/6969649/pexels-photo-6969649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-size: 100%;
+         
+        background-repeat: no-repeat;
+    
+      }

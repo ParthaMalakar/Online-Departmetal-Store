@@ -1,0 +1,47 @@
+<?php 
+	require_once('header.php');
+	$id= $_REQUEST['id'];
+	$file = fopen('product.txt', 'r');
+	$data = "";
+	while(!feof($file)){
+		$user = fgets($file);
+		$user = explode('|', $user);
+		if($user[0] == $id){
+			$data = $user;
+			break;
+		}
+	}
+?>
+<html>
+<head>
+	<title>Edit User</title>
+</head>
+<body>
+		<a href="userlist.php"> Back </a> | 
+		<a href="logout.php"> logout </a>
+
+		<form action="update.php" method="post" enctype="">
+			<fieldset>
+				<legend>Update Product</legend>
+				<table>
+					<tr>
+						<td>product_name</td>
+						<td><input type="text" name="product_name" value="<?=$data[1]?>"></td>
+					</tr>
+					<tr>
+						<td>product_price</td>
+						<td><input type="text" name="product_price" value="<?=$data[2]?>"></td>
+					</tr>
+					<tr>
+						<td>product_quantity</td>
+						<td><input type="text" name="product_quantity" value="<?=$data[3]?>"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" name="" value="Submit"></td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+</body>
+</html>

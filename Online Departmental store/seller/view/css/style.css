@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(80, 196, 211);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.button{
+    background-color: coral;
+}
+.register{
+    text-decoration: none;
+    color: darkmagenta;
+}
+/* .button:hover{
+    background-color: black;   
+    font
+} */
+.register:hover{
+    text-decoration: none;
+    color: rgb(255, 28, 28);
+}
+.cadmin{
+    margin-top: 3%;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
+
+.cadmin a{
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.updateProfile{
+    
+        background-color: coral;
+        margin-top: 3%;
+    
+}
+.homeClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.homeClass a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family:cursive;
+}
+
+.homeClass a:hover{
+    color: rgb(182, 24, 24);
+}
+
+.welcome{
+    text-align: center;
+}
+.rp{
+    text-align: center;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.adminBody{
+    background-color: greenyellow;
+}
+
+

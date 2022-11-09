@@ -1,0 +1,206 @@
+#homebg{
+    background-image: url(../image/bg.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.centerDesign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centerDesign a{
+    text-decoration: none;
+    color: black;
+
+}
+.centerDesign a:hover{
+    color: crimson;
+}
+
+#buyerinfobg{
+    background-image: url(../image/bg1.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.infomargin{
+    margin-top: 2%;
+}
+
+
+#updateSellerinfobg{
+    background-image: url(../image/bg2.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 2500px 800px;
+    
+}
+
+
+#updateSellerbg{
+    background-image: url(../image/bg5.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* register_seller.php  start*/
+#registerSellerbg{
+    background-image: url(../image/bg6.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 2500px 800px;
+}
+
+.registermargin{
+
+    margin-top: 4%;
+}
+
+
+/* register_seller.php end */
+
+
+/* signup.html start */
+
+
+#signupbg{
+    background-image: url(../image/bg7.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 2500px 800px;
+}
+
+.registermargin{
+
+    margin-top: 4%;
+}
+
+
+/* signup.html end */
+
+
+/* contact_Buyer_Html.php start */
+
+#conbuybg{
+    background-image: url(../image/bg8.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 2500px 800px;
+}
+
+
+
+/* contact_Buyer_Html.php end */
+
+/* contact_Buyer.php start */
+
+#contactbuybg{
+    background-image: url(../image/bg9.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* contact_Buyer.php end */
+
+/* contact_seller_Html.php start */
+
+#consellerbg{
+    background-image: url(../image/bg10.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 1600px 750px;
+}
+
+
+
+
+
+/* contact_seller_Html.php end  */
+
+
+/* contactsellerbg start */
+
+#contactsellerbg{
+    background-image: url(../image/bg11.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 1600px 750px;
+}
+
+/* contactsellerbg end */
+
+/* contact_Admin_Html.php start */
+
+#contactAdminbg{
+    background-image: url(../image/bg12.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 1600px 750px;
+}
+
+/* contact_Admin_Html.php end */
+
+#contactaddbg{
+    background-image: url(../image/bg13.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 1550px 750px;
+}
+
+
+#issueSolve{
+    background-image: url(../image/bg14.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 1550px 750px;
+}
+
+
+#solve{
+    background-image: url(../image/bg15.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 1550px 750px;
+}
+
+
+#createProfile{
+
+    background-image: url(../image/bg16.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 1550px 750px;
+
+}
+
+
+#loginbg{
+    margin-top: 12%;
+    background-image: url(../image/bg17.jpg);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-size: 1550px 750px;
+
+}

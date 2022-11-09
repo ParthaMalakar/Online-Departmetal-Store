@@ -1,0 +1,23 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:lightpink;  
+    font-family: 'Arial';  
+}  
+.cartl{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;    
+        border-radius: 15px ;  
+          
+}  
+  
+table{ 
+background-color: lightcoral; 
+    text-align: center;  
+    color: darkred;  
+    padding: 20px;  
+}  

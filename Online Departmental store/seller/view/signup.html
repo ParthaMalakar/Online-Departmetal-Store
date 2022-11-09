@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+	
+
+	<h2 id="head2">
+		
+	</h2>
+
+		<form action="../controller/regCheck.php" onsubmit="return validate()">
+
+
+			<fieldset>
+				<legend>Registration</legend>
+				<table>
+					<tr>
+						<td>Name</td></tr>
+						<tr>
+						<td><input type="text" id="username" name="username" value=""></td>
+					<td id="p"></td>
+						</td>
+					</tr>
+					<tr>
+						<td>ID</td>
+						</tr>
+						<tr>
+						<td><input type="Number" id="id" name="id" value=""></td><td id="a"></td>
+					</tr>
+					
+					<tr>
+						<td>password</td></tr>
+						<tr>
+						<td><input type="password" id="password" name="password" value=""></td><td id="r"></td>
+					</tr>
+					<tr>
+						<td>confirm_password</td></tr>
+						<tr>
+						<td><input type="password" id="confirm" name="confirm" value=""></td><td id="t"></td>
+					</tr>
+					<tr>
+						<td>Phone_Number</td></tr>
+						<tr>
+						<td><input type="text" id="Pnumber" name="Pnumber" value=""></td><td id="h"></td>
+					</tr>
+					<tr>
+						<td>Email</td></tr>
+						<tr>
+						<td><input type="email" id="email" name="email" value=""></td><td id="eemail">
+						</td>
+					</tr>
+										<tr>
+						<td>DOB</td></tr>
+						<tr>
+						<td><input type="date" id="dob" name="dob" value=""></td>
+						<td id="doba"></td>
+					</tr>
+					</tr>
+										<tr>
+						<td>User_Type</td></tr>
+						<tr>
+						<td><input type="radio" name="users" value="admin">admin<input type="radio" name="users" value="Manager">Manager<input type="radio" name="users" value="SELLER">SELLER</td>
+					</tr>
+					<tr>
+						<td>Address</td></tr>
+						<tr>
+						<td >
+							<textarea style="height: 70px;width: 180px;"></textarea>
+						</td>
+					</tr>
+					<td><br></td>
+					
+					<tr>
+						<td>
+							<input type="submit" name="" value="SignUp">
+							<a href="signup.html"> Signin </a>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+</body>
+</html>

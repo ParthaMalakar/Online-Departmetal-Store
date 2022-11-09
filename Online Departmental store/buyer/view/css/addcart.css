@@ -1,0 +1,22 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:lightpink;  
+    font-family: 'Arial';  
+}  
+.add{  
+        width: 900px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: lightcoral;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: darkred;  
+    padding: 20px;  
+}  

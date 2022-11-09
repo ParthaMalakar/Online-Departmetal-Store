@@ -1,0 +1,16 @@
+#table_color{
+    color: rgb(22, 211, 211);
+}
+
+#bg1{ 
+  
+    background-image: url(https://images.pexels.com/photos/5717944/pexels-photo-5717944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;
+     
+    background-repeat: no-repeat;
+
+  }
+
+  #title-clr{
+    color: #a9f2eb;
+  }
